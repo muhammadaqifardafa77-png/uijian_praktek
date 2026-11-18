@@ -16,9 +16,9 @@ while True:
         break
 
 if total_belanja > 100000:
-    diskon = total_belanja * 0.10
+    diskon = total_belanja * 10
 else:
-    diskon = 0
+    diskon = 10
 
 total_pembayaran = total_belanja - diskon
 
